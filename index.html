@@ -78,27 +78,9 @@
 				</div>
 				<div class="col-xs-10 text-right menu-1">
 					<ul>
-						<li class="active"><a href="index.html">Home</a></li>
-						<li><a href="about.html">Story</a></li>
-						<li class="has-dropdown">
-							<a href="services.html">Services</a>
-							<ul class="dropdown">
-								<li><a href="#">Web Design</a></li>
-								<li><a href="#">eCommerce</a></li>
-								<li><a href="#">Branding</a></li>
-								<li><a href="#">API</a></li>
-							</ul>
-						</li>
-						<li class="has-dropdown">
-							<a href="gallery.html">Gallery</a>
-							<ul class="dropdown">
-								<li><a href="#">HTML5</a></li>
-								<li><a href="#">CSS3</a></li>
-								<li><a href="#">Sass</a></li>
-								<li><a href="#">jQuery</a></li>
-							</ul>
-						</li>
-						<li><a href="contact.html">Contact</a></li>
+						<li><a href="#beranda">Beranda</a></li>
+						<li><a href="#akad">Jadwal Akad</a></li>
+						<li><a href="#lokasi">Lokasi</a></li>
 					</ul>
 				</div>
 			</div>
@@ -172,7 +154,7 @@
 						<!-- <div class="col-md-10 col-md-offset-1"> -->
 							<div class="col-md-12 col-sm-12 text-center">
 								<div class="event-wrap animate-box">
-									<h3>Main Ceremony</h3>
+									<h3>Akad</h3>
 									<div class="event-col">
 										<i class="icon-clock"></i>
 										<span>10:00 - selesai</span>
@@ -613,7 +595,9 @@
     simplyCountdown('.simply-countdown-one', {
         year: 2020,
         month: 11,
-        day: 29
+		day: 29,
+		hours: 1,
+		enableUtc: true
     });
 
     //jQuery example
