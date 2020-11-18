@@ -22,14 +22,14 @@
   margin-bottom: 5rem;
 }
 
-#footer {
+.footer {
   padding-top: 30px;
   text-align: center;
   color: white;
 
 }
 
-#judul-footer {
+.judul-footer {
   font-size: 3.5rem;
   font-family: "Sacramento", Arial, serif;
 }
@@ -38,7 +38,7 @@ td {
   padding: 0 75px 35px;
 }
 
-#p-footer {
+.p-footer {
   margin: 0;
 }
 /* end of custom style */
