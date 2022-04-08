@@ -37,6 +37,14 @@
 .p-footer {
   margin: 0;
 }
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper a {
+  flex-grow: 1;
+}
 /* end of custom style */
 
 
